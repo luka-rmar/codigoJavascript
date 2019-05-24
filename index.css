@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#conteudo{
+    resize: none;
+    margin: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+}
+
+.container .texto{
+    width: 50%;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: rgba(49, 16, 104, 0.712);
+    color: azure;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.texto:hover{
+    background: transparent;
+    color: rgba(0, 0, 0, 0.705);
+    box-shadow: inset 0 0 1em rgba(173, 179, 179, 0.699),2px 2px 1px rgba(0, 0, 0, 0.438);
+    transition: 0.7s  0.1s; 
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn input{
+    margin: 3px;
+    font-weight: 600;
+    padding: 8px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgba(49, 16, 104, 0.712);
+    color: azure;
+    cursor: pointer;
+    outline: none;   
+}
+
+.btn input:hover{
+    background: transparent;
+    color: rgba(0, 0, 0, 0.705);
+    box-shadow: inset 0 0 1em rgba(173, 179, 179, 0.699),0 0 0.2em rgba(0, 0, 0, 0.281);
+    transition: 0.7s  0.1s; 
+}
+
+.container #resultado1, #resultado2{
+    resize: none;
+    margin: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+    box-shadow: inset 0 0 1em #3031330a,2px 2px 1px rgb(255, 255, 255);
+    color: rgb(117, 106, 106);
+    letter-spacing: 2px;
+}
+
+.container-area{
+    display: flex;
+    flex-direction: row;
+}
+
+.area{
+    display: flex;
+    flex-flow: column;
+}
+
+.area label{
+    text-align: center;
+    font-weight: 600;
+
+}
